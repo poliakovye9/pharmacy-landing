@@ -1,0 +1,1 @@
+export { default } from "file:///home/biryus/Workspaces/Upwork/pharmacy-landing/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
