@@ -2,14 +2,15 @@
   <div>
     <Hero />
     <Features />
-    <Services />
+    <Prices />
+    <Contact />
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
+
 </script>
+
 <style>
-  h2 {
-    margin-bottom: 20px;
-  }
+
 </style>

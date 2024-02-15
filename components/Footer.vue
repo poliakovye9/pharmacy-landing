@@ -1,33 +1,121 @@
-
-import type { NuxtLink } from '#build/components';
 <template>
-  <Bounded as="footer" class="!py-4 md:!py-6 lg:!py-8 mt-440">
-    <div class="w-full flex justify-center items-center">
-      <div class="w-2/3 text-left px-24 py-24 bg-white">
-        <div class="title text-center">
-          <h1 class="text-4xl text-sky-400">Contact Us</h1>
+  <footer class="bg-white">
+    <div class="container mx-auto px-8">
+      <div class="w-full flex flex-col md:flex-row py-6">
+        <div class="flex-1 mb-6">
+          <logo />
         </div>
-        <div class="q0 block flex flex-col mt-4">
-          <label for="q0">Q1. What's your email?</label>
-          <input class="bg-gray-300 px-4 py-2 mt-2" type="text" placeholder="Type your email..." />
+
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Links</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >FAQ</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Help</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Support</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="q1 block flex flex-col mt-4">
-          <label for="q1">Q2. What's your position?</label>
-          <input class="bg-gray-300 px-4 py-2 mt-2" type="text" placeholder="Type your position..." />
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Terms</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Privacy</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="q2 block flex flex-col mt-4">
-          <label for="q2">Q3. What do you want more in your pharmacy software?</label>
-          <text class="bg-gray-300 px-4 py-2 mt-2 min-h-48" type="text" placeholder="List features you need..." />
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Social</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Facebook</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Linkedin</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Twitter</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="submit mt-4 w-full text-center">
-          <button type="button" class="bg-sky-400 text-white rounded px-12 py-4">Submit</button>
+        <div class="flex-1">
+          <p class="uppercase text-gray-500 md:mb-6">Company</p>
+          <ul class="list-reset mb-6">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Official Blog</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >About Us</a
+              >
+            </li>
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a
+                href="#"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </Bounded>
+
+    <a href="https://www.freepik.com/free-photos-vectors/background"
+      >Background vector created by freepik - www.freepik.com</a
+    >
+  </footer>
 </template>
+
+<script lang="ts" setup>
+
+</script>
+
 <style>
-  .mt-440 {
-    margin-top:440px;
-  }
+
 </style>
